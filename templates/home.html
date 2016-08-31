@@ -14,8 +14,9 @@
 					</div>
 				</div>
 				<div class="card__actions">
-					<a href="#">Ver más</a>
-				</div>
+					<a href="#/post/{{post.id}}" class="btn btn--m btn--blue btn--flat" lx-ripple>See more</a>
+					<a ng-click="removePost(post)" class="btn btn--m btn--red btn--flat" lx-ripple>Delete this post</a>
+				</div>	
 			</div>
 		</div>
 	</lx-tab>
